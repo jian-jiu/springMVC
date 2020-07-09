@@ -73,7 +73,6 @@ public class MyController {
         System.out.println("name:" + name + "age:" + age);
         ModelAndView mv = new ModelAndView();
         stuDent stuDent = new stuDent(10, name, age, "男");
-
 //        获取访问者ip
         System.out.println(Ip.getIpAddress(request));
 
